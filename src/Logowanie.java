@@ -41,8 +41,11 @@ public class Logowanie extends Users{
         if (inOut)
         {
             System.out.println("You are logged In.");
+            Functions funkcje = new Functions();
+            funkcje.show();
+            funkcje.choise();
         } else {
-            System.out.println("you are logged Off.");
+            System.out.println("you are logged off.");
         }
     }
 }
